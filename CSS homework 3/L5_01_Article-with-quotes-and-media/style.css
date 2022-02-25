@@ -1,0 +1,106 @@
+html {
+    font-family: Helvetica, sans-serif;
+    box-sizing: border-box;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    background-color: rgb(238, 238, 238);
+    margin: 20px 100px;
+    padding: 20px 250px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Georgia, serif;
+}
+
+main {
+    width: 70%;
+}
+
+main, aside {
+    display: inline-block;
+    vertical-align: top;
+}
+
+aside {
+    margin-left: 80px;
+}
+
+.site-title {
+    display: inline-block;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 40px;
+}
+
+hr {
+    border: solid 1px;
+}
+
+.first-article {
+    display: inline-block;
+    width: 90%;
+}
+
+img {
+    float: right;
+    padding: 10px;
+    margin: 12px;
+    border: black solid 2px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 7px 29px 0px;
+}
+
+img.imagone {
+    margin-left: 50px;
+    margin-right: -120px;
+    margin-top: 0px;
+}
+
+.left-side {
+    float: left;
+    width: 40%;
+}
+
+blockquote {
+    font-family: Georgia, serif;
+    font-style: italic;
+    border-left: 1px solid #DDDDDD;
+    padding-left: 20px;
+    color: #67596B;
+    float: right;
+    width: 50%;
+}
+
+.author {
+    display: block;
+    text-align: right;
+    margin-top: 30px;
+}
+
+.article-picture {
+    display: inline-block;
+}
+
+.imagtwo {
+    float: left;
+    margin-bottom: 50px;
+    margin-right: 50px;
+    margin-left: 0px;
+}
+
+.picture-headline {
+    display: block;
+    margin-bottom: -2px;
+}
+
+ul li a {
+    color: #3D7F30;
+    text-decoration: none;
+}
